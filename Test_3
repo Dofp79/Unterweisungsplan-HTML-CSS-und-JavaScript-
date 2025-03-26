@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktive Webseite</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        input {
+            padding: 10px;
+            width: 80%;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Interaktive Webseite</h1>
+
+        <p id="text">Dies ist ein interaktives Beispiel.</p>
+        <button onclick="changeText()">Text ändern</button>
+
+        <h3>Gib deinen Namen ein:</h3>
+        <input type="text" id="nameInput" placeholder="Dein Name..." oninput="updateName()">
+        <p id="nameOutput"></p>
+
+        <h3>Hintergrundfarbe ändern:</h3>
+        <button onclick="changeBgColor()">Farbe wechseln</button>
+    </div>
+
+    <script>
+        // Funktion zum Ändern des Textes
+        function changeText() {
+            document.getElementById("text").innerText = "Du hast den Button geklickt!";
+        }
+
+        // Funktion zum Anzeigen des Namens in Echtzeit
+        function updateName() {
+            let name = document.getElementById("nameInput").value;
+            document.getElementById("nameOutput").innerText = "Hallo, " + name + "!";
+        }
+
+        // Funktion zum Ändern der Hintergrundfarbe
+        function changeBgColor() {
+            let colors = ["#ffcccb", "#d4edda", "#cce5ff", "#f8d7da", "#fff3cd"];
+            let randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.style.backgroundColor = randomColor;
+        }
+    </script>
+
+</body>
+</html>
