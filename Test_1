@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de"> <!-- Definiert die Sprache der Webseite als Deutsch -->
+<head>
+    <meta charset="UTF-8"> <!-- Stellt sicher, dass Umlaute und Sonderzeichen korrekt angezeigt werden -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Macht die Seite responsiv für Mobilgeräte -->
+    <title>Meine erste Webseite</title> <!-- Titel der Seite, der im Browser-Tab angezeigt wird -->
+    
+    <style>
+        /* Stil für die gesamte Seite */
+        body {
+            font-family: Arial, sans-serif; /* Setzt die Schriftart */
+            text-align: center; /* Zentriert den Text */
+            margin: 50px; /* Fügt Abstand zum Rand hinzu */
+        }
+
+        /* Stil für den Button */
+        button {
+            padding: 10px 20px; /* Innenabstand des Buttons */
+            font-size: 16px; /* Schriftgröße */
+            cursor: pointer; /* Zeigt eine Hand an, wenn man über den Button fährt */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Willkommen auf meiner Webseite!</h1> <!-- Große Überschrift -->
+
+    <p id="text">Dies ist ein einfacher HTML-Test.</p> <!-- Absatz mit einer ID, damit wir ihn per JavaScript verändern können -->
+
+    <button onclick="changeText()">Klick mich!</button> <!-- Button mit einer Funktion, die bei Klick aufgerufen wird -->
+
+    <script>
+        // Diese Funktion wird aufgerufen, wenn der Button geklickt wird
+        function changeText() {
+            document.getElementById("text").innerText = "Du hast den Button geklickt!"; 
+            // Sucht das Element mit der ID "text" und ändert dessen Inhalt
+        }
+    </script>
+
+</body>
+</html>
