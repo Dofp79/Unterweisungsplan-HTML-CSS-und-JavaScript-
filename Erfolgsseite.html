@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du hast es geschafft!</title>
+    <style>
+        /* Animierter Farbverlauf als Hintergrund */
+        body {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #ffeb00, #00ff00, #0099ff, #6b00ff, #ff00ff);
+            background-size: 400% 400%;
+            animation: gradientAnimation 5s infinite alternate;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+
+        /* Haupttext */
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 0 0 10px white, 0 0 20px yellow, 0 0 30px red;
+            z-index: 1;
+        }
+
+        /* Konfetti-Animation */
+        .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: randomColor();
+            opacity: 0.7;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            0% { transform: translateY(-100vh) rotate(0deg); }
+            100% { transform: translateY(100vh) rotate(360deg); }
+        }
+
+        /* Zurück-Button */
+        button {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: darkred;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>🎉 Du hast es geschafft! 🎉</h1>
+
+    <!-- Zurück-Button -->
+    <button onclick="goBack()">Zurück zur Startseite</button>
+
+    <script>
+        function goBack() {
+            window.location.href = "Logo_3.HTML"; // Zurück zur Hauptseite
+        }
+
+        function randomColor() {
+            const colors = ["#ff0000", "#ff7300", "#ffeb00", "#00ff00", "#0099ff", "#6b00ff", "#ff00ff"];
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        function createConfetti() {
+            for (let i = 0; i < 100; i++) {
+                let confetti = document.createElement("div");
+                confetti.classList.add("confetti");
+                confetti.style.left = Math.random() * window.innerWidth + "px";
+                confetti.style.animationDuration = (Math.random() * 3 + 2) + "s";
+                confetti.style.backgroundColor = randomColor();
+                document.body.appendChild(confetti);
+            }
+        }
+
+        createConfetti();
+    </script>
+
+</body>
+</html>
