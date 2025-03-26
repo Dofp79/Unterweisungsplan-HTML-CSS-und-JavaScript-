@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma Hamburg</title>
+    <style>
+        /* Hintergrundfarbe für den gesamten Body */
+        body {
+            background-color: #001f3f; /* Dunkelblau */
+            color: white; /* Weißer Text */
+            text-align: center; /* Zentrierter Text */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Stil für die Hauptüberschrift */
+        h1 {
+            color: red; /* Farbe-Rot */
+        }
+
+        /* Stil für den Absatz */
+        p {
+            font-size: 18px;
+        }
+
+        /* Stil für das Bild */
+        img {
+            width: 300px; /* Breite auf 300px setzen */
+            border: 5px solid red; /* Roter Rahmen */
+            border-radius: 10px; /* Abgerundete Ecken */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Überschrift -->
+    <h1>Polizei Hamburg</h1>
+
+    <!-- Absatz -->
+    <p>Hier ist das offizielle Logo:</p>
+
+    <!-- Bild einfügen (lokale Datei oder Online-Link) -->
+    <img src=" ">
+
+</body>
+</html>
