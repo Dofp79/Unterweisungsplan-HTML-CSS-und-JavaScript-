@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polizei Hamburg</title>
+    <style>
+        /* Hintergrundfarbe */
+        body {
+            background-color: #001f3f; /* Dunkelblau */
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Stil für die Überschrift */
+        h1 {
+            color: red;
+            transition: color 0.3s;
+        }
+
+        /* Container für das Bild mit Rahmen */
+        .image-container {
+            display: inline-block;
+            padding: 15px;
+            border: 5px solid red;
+            border-radius: 10px;
+        }
+
+        /* Stil für das Bild */
+        .image-container img {
+            width: 300px;
+            display: block;
+        }
+
+        /* Stil für den Button */
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Überschrift mit Mouseover-Effekt -->
+    <h1 id="title" onmouseover="changeColor()" onmouseout="resetColor()">Firma Hamburg</h1>
+
+    <!-- Absatz -->
+    <p>Hier ist das offizielle Logo der Firma Hamburg:</p>
+
+    <!-- Bild mit blinkendem Rahmen -->
+    <div class="image-container" id="image-border">
+        <img src="  ">
+    </div>
+
+    <!-- Button mit Weiterleitung -->
+    <br><br>
+    <button onclick="goToSuccessPage()">Klicke mich!</button>
+
+    <!-- JavaScript -->
+    <script>
+        function goToSuccessPage() {
+            window.location.href = "Erfolgsseite.html"; // Leitet auf die Erfolgsseite weiter
+        }
+
+        function changeColor() {
+            document.getElementById("polizei-title").style.color = "blue";
+        }
+
+        function resetColor() {
+            document.getElementById("polizei-title").style.color = "red";
+        }
+
+        function blinkBorder() {
+            let imageContainer = document.getElementById("image-border");
+            imageContainer.style.borderColor = 
+                (imageContainer.style.borderColor === "red") ? "yellow" : "red";
+        }
+        setInterval(blinkBorder, 1000);
+    </script>
+
+</body>
+</html>
