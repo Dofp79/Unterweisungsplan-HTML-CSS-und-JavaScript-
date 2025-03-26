@@ -42,18 +42,19 @@ Der Auszubildende kann die Wichtigkeit von JavaScript erklären, um einfache vis
 • Thema laut Ausbildungsrahmenplan: Konzipieren und Umsetzen von kundenspezifischen Softwareanwendungen (§ 4 Absatz 3 Nummer 1)
 
 7. Ablaufplan der Unterweisung
-Phase	Inhalt	Methode	Zeit
-  1. Begrüßung und Einführung	Vorstellung des Themas und Relevanz von HTML, CSS & JavaScript für das SharePoint-Forum.	Lehrgespräch	1 Min
-  2. Grundlegende Konzepte	Erklärung der Unterschiede zwischen HTML, CSS und JavaScript mit praktischen Beispielen.	Lehrgespräch	1 Min
-  3. Eisbrecher-Aktivität	Frage: „Was denken Sie, was HTML, CSS und JavaScript genau tun?“ Darstellung durch eine Metapher (z. B. Gebäude, Farbe und Elektrik).	Interaktive Frage-Antwort-Runde	2 Min
-  4. HTML-Struktur	Interaktive Frage-Antwort-Runde über HTML	Arbeit an der Tafel mit ausgedruckten Beispielen	2 Min
-  5. CSS-Gestaltung	Interaktive Frage-Antwort-Runde über CSS	Arbeit an der Tafel mit ausgedruckten Beispielen	2 Min
-  6. JavaScript-Funktionalität	Frage: „Was denken Sie, was JavaScript ist“ 	Interaktive Frage-Antwort-Runde	2 Min
-  7. JavaScript Internalisierung	Arbeit an der Tafel	Arbeit an der Tafel	2 Min
-  8. Lernerfolgskontrolle	Der Auszubildende ordnet HTML-, CSS- und JavaScript-Code visuellen Beispielen zu.	Mündliche Kontrolle und praktische Übung	2 Min
-  9. Feedback und Abschluss	Kurzes Feedback zur Leistung des Auszubildenden und Ausblick auf weiterführende Themen.	Gespräch	1 Min
+8. 
+    Phase	Inhalt	Methode	Zeit
+    a.    Begrüßung und Einführung	Vorstellung des Themas und Relevanz von HTML, CSS & JavaScript für das SharePoint-Forum. Lehrgespräch	1 Min
+    b.    Grundlegende Konzepte	Erklärung der Unterschiede zwischen HTML, CSS und JavaScript mit praktischen Beispielen. Lehrgespräch 1 Min
+    c.    Eisbrecher-Aktivität	Frage: „Was denken Sie, was HTML, CSS und JavaScript genau tun?“ Darstellung durch eine Metapher (z. B. Gebäude, Farbe und Elektrik).	Interaktive Frage-Antwort-Runde 	2 Min
+    d.    HTML-Struktur	Interaktive Frage-Antwort-Runde über HTML	Arbeit an der Tafel mit ausgedruckten Beispielen	2 Min
+    e.    CSS-Gestaltung	Interaktive Frage-Antwort-Runde über CSS	Arbeit an der Tafel mit ausgedruckten Beispielen	2 Min
+    f.    JavaScript-Funktionalität	Frage: „Was denken Sie, was JavaScript ist“ 	Interaktive Frage-Antwort-Runde	2 Min
+    g.    JavaScript Internalisierung	Arbeit an der Tafel	Arbeit an der Tafel	2 Min
+    h.    Lernerfolgskontrolle	Der Auszubildende ordnet HTML-, CSS- und JavaScript-Code visuellen Beispielen zu.	Mündliche Kontrolle und praktische Übung	2 Min
+    i.    Feedback und Abschluss	Kurzes Feedback zur Leistung des Auszubildenden und Ausblick auf weiterführende Themen.	Gespräch	1 Min
 
-8. Offene und geschlossene Fragen
+9. Offene und geschlossene Fragen
 • Offene Fragen:
 „Wie würdet man den Unterschied zwischen HTML, CSS und JavaScript erklären?“
 „Warum ist eine klare Trennung von Struktur (HTML), Gestaltung (CSS) und Funktionalität (JavaScript) sinnvoll?“
@@ -64,18 +65,18 @@ Phase	Inhalt	Methode	Zeit
 „Kann CSS ohne HTML genutzt werden?“ (Ja/Nein)
 „Ist JavaScript für interaktive Webseiten notwendig?“ (Ja/Nein)
 
-9. Methodische und didaktische Überlegungen
+10. Methodische und didaktische Überlegungen
 • Methodenwahl: Die Unterweisung erfolgt ausschließlich an der Tafel mit ausgedruckten Beispielen.
 • Einsatz von gedruckten Webseiten: HTML-, CSS- und JavaScript-Konzepte werden anhand physischer Beispiele verdeutlicht.
 • Analogie des Gebäudes: HTML als Struktur, CSS als Gestaltung, JavaScript als Funktionalität.
 
-10. Arbeitsmittel
+11. Arbeitsmittel
 • Ausgedruckte HTML-, CSS- und JavaScript-Beispiele
 • Farbig markierte Kärtchen mit HTML-, CSS- und JavaScript-Begriffen
 • Tafel und Stifte zur visuellen Darstellung
 
-11. Erfolgskontrolle
+12. Erfolgskontrolle
 Der Auszubildende identifiziert HTML-, CSS- und JavaScript-Dateien auf dem PC und ordnet sie den entsprechenden visuellen Darstellungen zu.
-12. Reflexion und Feedback
+13. Reflexion und Feedback
 Nach der Unterweisung gibt der Ausbilder dem Auszubildenden Feedback und bespricht mögliche Verbesserungen. Ein Ausblick auf weiterführende Themen wie CSS-Frameworks (Bootstrap) oder komplexere JavaScript-Anwendungen wird gegeben.
 
