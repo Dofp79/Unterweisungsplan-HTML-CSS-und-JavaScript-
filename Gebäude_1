@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gebäude ohne CSS</title>
+</head>
+<body>
+
+    <!-- Gebäude -->
+    <div>
+        <!-- Dach -->
+        <div>Dach</div>
+        
+        <!-- Gebäude-Körper -->
+        <div>
+            <!-- Fenster -->
+            <div>Fenster 1</div>
+            <div>Fenster 2</div>
+            <div>Fenster 3</div>
+            <div>Fenster 4</div>
+            
+            <!-- Tür -->
+            <div>Tür</div>
+        </div>
+    </div>
+
+</body>
+</html>
