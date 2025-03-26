@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine erste Webseite</title>
+
+    <style>
+        /* Allgemeine Stile für die gesamte Seite */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4; /* Heller Hintergrund */
+        }
+
+        /* Stil für den Hauptcontainer */
+        .container {
+            background: white; /* Weißer Hintergrund für besseren Kontrast */
+            padding: 20px;
+            border-radius: 10px; /* Abgerundete Ecken */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Schatteneffekt */
+            max-width: 400px;
+            margin: auto; /* Zentrierung des Containers */
+        }
+
+        /* Stil für die Überschrift */
+        h1 {
+            color: #333;
+        }
+
+        /* Stil für den Absatz */
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* Stil für den Button */
+        button {
+            background-color: #007bff; /* Blau */
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s; /* Sanfter Farbwechsel */
+        }
+
+        /* Hover-Effekt für den Button */
+        button:hover {
+            background-color: #0056b3; /* Dunkleres Blau beim Überfahren */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Willkommen auf meiner Webseite!</h1>
+        <p id="text">Dies ist ein einfacher HTML-Test.</p>
+        <button onclick="changeText()">Klick mich!</button>
+    </div>
+
+    <script>
+        // Funktion, die den Text ändert, wenn der Button geklickt wird
+        function changeText() {
+            document.getElementById("text").innerText = "Du hast den Button geklickt!"; 
+        }
+    </script>
+
+</body>
+</html>
