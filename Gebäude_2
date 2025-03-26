@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ein einfaches Gebäude</title>
+    <style>
+        /* Zentrierung der Seite */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #87CEEB; /* Himmelblau */
+            margin: 0;
+        }
+
+        /* Gebäude-Struktur */
+        .building {
+            width: 250px;
+            height: 400px;
+            background-color: #8B0000; /* Dunkelrot */
+            position: relative;
+            border: 5px solid #5A0000;
+            border-radius: 5px;
+        }
+
+        /* Dach */
+        .roof {
+            width: 0;
+            height: 0;
+            border-left: 140px solid transparent;
+            border-right: 140px solid transparent;
+            border-bottom: 100px solid #5A0000; /* Dunkleres Rot */
+            position: absolute;
+            top: -100px;
+            left: -15px;
+        }
+
+        /* Tür */
+        .door {
+            width: 60px;
+            height: 100px;
+            background-color: #654321; /* Braun */
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 5px;
+        }
+
+        /* Fenster */
+        .window {
+            width: 50px;
+            height: 50px;
+            background-color: #ADD8E6; /* Hellblau */
+            border: 3px solid #5A0000;
+            position: absolute;
+        }
+
+        /* Fensterpositionen */
+        .window1 { top: 50px; left: 30px; }
+        .window2 { top: 50px; right: 30px; }
+        .window3 { top: 150px; left: 30px; }
+        .window4 { top: 150px; right: 30px; }
+    </style>
+</head>
+<body>
+
+    <div class="building">
+        <div class="roof"></div> <!-- Dach -->
+        <div class="door"></div> <!-- Tür -->
+        <div class="window window1"></div> <!-- Fenster oben links -->
+        <div class="window window2"></div> <!-- Fenster oben rechts -->
+        <div class="window window3"></div> <!-- Fenster unten links -->
+        <div class="window window4"></div> <!-- Fenster unten rechts -->
+    </div>
+
+</body>
+</html>
