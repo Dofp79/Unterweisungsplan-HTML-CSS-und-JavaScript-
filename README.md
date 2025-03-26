@@ -5,36 +5,35 @@ Begründung: Dieses Thema wurde ausgewählt, da der Auszubildende in naher Zukun
 
 2. Lernziele
 
-• Richtlernziel: 
-Der Auszubildende versteht die Bedeutung von HTML für die Struktur, CSS für die Gestaltung und JavaScript für die Funktionalität von Webseiten.
+  • Richtlernziel: 
+  Der Auszubildende versteht die Bedeutung von HTML für die Struktur, CSS für die Gestaltung und JavaScript für die Funktionalität von Webseiten.
 
-• Groblernziele:
-Der Auszubildende kennt die Unterschiede zwischen HTML, CSS und JavaScript und kann deren Aufgaben erläutern.
-Der Auszubildende versteht die grundlegende Syntax aller drei Sprachen.
+  • Groblernziele:
+  Der Auszubildende kennt die Unterschiede zwischen HTML, CSS und JavaScript und kann deren Aufgaben erläutern.
+  Der Auszubildende versteht die grundlegende Syntax aller drei Sprachen.
 
-• Feinlernziele:
-Der Auszubildende kann ein einfaches HTML-Dokument identifizieren und die visuellen Beispiele einordnen.
-Der Auszubildende kann eine CSS-Datei identifizieren und identifizieren und die visuellen Beispiele einordnen.
-Der Auszubildende kann die Wichtigkeit von JavaScript erklären, um einfache visuellen Beispiele einordnen.
+  • Feinlernziele:
+  Der Auszubildende kann ein einfaches HTML-Dokument identifizieren und die visuellen Beispiele einordnen.
+  Der Auszubildende kann eine CSS-Datei identifizieren und identifizieren und die visuellen Beispiele einordnen.
+  Der Auszubildende kann die Wichtigkeit von JavaScript erklären, um einfache visuellen Beispiele einordnen.
 
 3. Offene und geschlossene Fragen
-• Offene Fragen:
-„Wie würdet man den Unterschied zwischen HTML, CSS und JavaScript erklären?“
-„Warum ist eine klare Trennung von Struktur (HTML), Gestaltung (CSS) und Funktionalität (JavaScript) sinnvoll?“
-„Auf welsche Grund müssen Änderungen im Design in der CSS-Datei vorgenommen werden, ohne dass der HTML-Code verändert werden muss?“
-„Warum ist nur JavaScript eine Programmiersprache?“ 
-• Geschlossene Fragen:
-„Besteht eine HTML-Datei nur aus Struktur?“ (Ja/Nein)
-„Kann CSS ohne HTML genutzt werden?“ (Ja/Nein)
-„Ist JavaScript für interaktive Webseiten notwendig?“ (Ja/Nein)
+  • Offene Fragen:
+  „Wie würdet man den Unterschied zwischen HTML, CSS und JavaScript erklären?“
+  „Warum ist eine klare Trennung von Struktur (HTML), Gestaltung (CSS) und Funktionalität (JavaScript) sinnvoll?“
+  „Auf welsche Grund müssen Änderungen im Design in der CSS-Datei vorgenommen werden, ohne dass der HTML-Code verändert werden muss?“
+  „Warum ist nur JavaScript eine Programmiersprache?“ 
+  • Geschlossene Fragen:
+  „Besteht eine HTML-Datei nur aus Struktur?“ (Ja/Nein)
+  „Kann CSS ohne HTML genutzt werden?“ (Ja/Nein)
+  „Ist JavaScript für interaktive Webseiten notwendig?“ (Ja/Nein)
 
 4. Arbeitsmittel
-• Ausgedruckte HTML-, CSS- und JavaScript-Beispiele
-• Farbig markierte Kärtchen mit HTML-, CSS- und JavaScript-Begriffen
-• Tafel und Stifte zur visuellen Darstellung
+  • Ausgedruckte HTML-, CSS- und JavaScript-Beispiele
+  • Farbig markierte Kärtchen mit HTML-, CSS- und JavaScript-Begriffen
+  • Tafel und Stifte zur visuellen Darstellung
 
 5. Erfolgskontrolle
 Der Auszubildende identifiziert HTML-, CSS- und JavaScript-Dateien auf dem PC und ordnet sie den entsprechenden visuellen Darstellungen zu.
-13. Reflexion und Feedback
-Nach der Unterweisung gibt der Ausbilder dem Auszubildenden Feedback und bespricht mögliche Verbesserungen. Ein Ausblick auf weiterführende Themen wie CSS-Frameworks (Bootstrap) oder komplexere JavaScript-Anwendungen wird gegeben.
+
 
