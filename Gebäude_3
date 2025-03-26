@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktives Gebäude</title>
+    <style>
+        /* Zentrierung der Seite */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #87CEEB; /* Himmelblau */
+            margin: 0;
+        }
+
+        /* Gebäude-Struktur */
+        .building {
+            width: 250px;
+            height: 400px;
+            background-color: #8B0000; /* Dunkelrot */
+            position: relative;
+            border: 5px solid #5A0000;
+            border-radius: 5px;
+        }
+
+        /* Dach */
+        .roof {
+            width: 0;
+            height: 0;
+            border-left: 140px solid transparent;
+            border-right: 140px solid transparent;
+            border-bottom: 100px solid #5A0000; /* Dunkleres Rot */
+            position: absolute;
+            top: -100px;
+            left: -15px;
+        }
+
+        /* Tür */
+        .door {
+            width: 60px;
+            height: 100px;
+            background-color: #654321; /* Braun */
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.5s;
+        }
+
+        /* Fenster */
+        .window {
+            width: 50px;
+            height: 50px;
+            background-color: #ADD8E6; /* Hellblau */
+            border: 3px solid #5A0000;
+            position: absolute;
+            transition: background 0.3s;
+        }
+
+        /* Fensterpositionen */
+        .window1 { top: 50px; left: 30px; }
+        .window2 { top: 50px; right: 30px; }
+        .window3 { top: 150px; left: 30px; }
+        .window4 { top: 150px; right: 30px; }
+
+        /* Buttons */
+        .controls {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="building">
+        <div class="roof"></div> <!-- Dach -->
+        <div class="door" id="door"></div> <!-- Tür -->
+        <div class="window window1" id="window1"></div> <!-- Fenster oben links -->
+        <div class="window window2" id="window2"></div> <!-- Fenster oben rechts -->
+        <div class="window window3" id="window3"></div> <!-- Fenster unten links -->
+        <div class="window window4" id="window4"></div> <!-- Fenster unten rechts -->
+    </div>
+
+    <!-- Steuerungselemente -->
+    <div class="controls">
+        <button onclick="toggleDoor()">🚪 Tür öffnen/schließen</button>
+        <button onclick="toggleWindows()">💡 Fenster an/aus</button>
+    </div>
+
+    <!-- Sound-Effekte -->
+    <audio id="doorSound" src="https://www.fesliyanstudios.com/play-mp3/387"></audio>
+    <audio id="lightSound" src="https://www.fesliyanstudios.com/play-mp3/6733"></audio>
+
+    <script>
+        let doorOpen = false;
+        let windowsOn = false;
+
+        function toggleDoor() {
+            const door = document.getElementById("door");
+            const doorSound = document.getElementById("doorSound");
+            
+            doorOpen = !doorOpen;
+
+            // Ändere Tür-Farbe und Position
+            if (doorOpen) {
+                door.style.backgroundColor = "#3d2b1f"; // Dunkleres Braun
+                door.style.transform = "translateX(-50%) rotateY(40deg)"; // Öffnen
+            } else {
+                door.style.backgroundColor = "#654321"; // Standard-Braun
+                door.style.transform = "translateX(-50%) rotateY(0deg)"; // Schließen
+            }
+
+            // Spiele Tür-Sound
+            doorSound.play();
+        }
+
+        function toggleWindows() {
+            const lightSound = document.getElementById("lightSound");
+            windowsOn = !windowsOn;
+
+            // Alle Fenster an-/ausschalten
+            for (let i = 1; i <= 4; i++) {
+                let windowElement = document.getElementById("window" + i);
+                windowElement.style.backgroundColor = windowsOn ? "#FFFF99" : "#ADD8E6"; // Gelb = Licht an, Blau = Licht aus
+            }
+
+            // Spiele Licht-Sound
+            lightSound.play();
+        }
+    </script>
+
+</body>
+</html>
