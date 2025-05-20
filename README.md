@@ -1,4 +1,4 @@
-# 🌐 Unterweisungsplan: HTML, CSS und JavaScript – Struktur, Gestaltung und Funktionalität von Webseiten 🌐
+## 🌐 Unterweisungsplan: HTML, CSS und JavaScript – Struktur, Gestaltung und Funktionalität von Webseiten 🌐
 
 Willkommen zum **Unterweisungsplan für moderne Webentwicklung**!  
 Dieses Repository vermittelt praxisnah die Grundlagen von **HTML**, **CSS** und **JavaScript**.  
