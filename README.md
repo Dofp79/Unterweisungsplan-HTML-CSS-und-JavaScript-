@@ -3,7 +3,7 @@
 Willkommen zum **Unterweisungsplan für moderne Webentwicklung**!  
 Dieses Repository vermittelt praxisnah die Grundlagen von **HTML**, **CSS** und **JavaScript**.  
 Ziel ist es, den Aufbau, die Gestaltung und die Interaktivität von Webseiten verständlich zu machen – ideal für Einsteiger und Auszubildende.
-
+ 
 ---
 
 ##  Thema & Begründung der Themenwahl
