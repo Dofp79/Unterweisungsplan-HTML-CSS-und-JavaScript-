@@ -28,7 +28,7 @@ korrekt einsetzt.
 
 ###  Richtlernziel
 Der Auszubildende versteht die Bedeutung von **HTML für die Struktur**, **CSS für die Gestaltung** und **JavaScript für die Funktionalität** von Webseiten.
-
+ 
 ###  Groblernziele
 - Der Auszubildende kennt die Unterschiede zwischen HTML, CSS und JavaScript.
 - Er kann deren Aufgaben klar erläutern.
